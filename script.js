@@ -263,3 +263,32 @@ if (height || height === 0) {
 if (height == '23') {
     console.log('The == operator does type coercion!');
 }
+
+// Coding challenge
+
+var scoreJohn = (89 + 120 + 103) / 3;
+var scoreMike = (116 + 94 + 123) / 3;
+console.log(scoreJohn, scoreMike);
+
+if (scoreJohn > scoreMike) {
+    console.log('John\'s team wins with ' + scoreJohn + ' points');
+} else if (scoreMike > scoreJohn) {
+    console.log('Mike\'s tema wins with ' + scoreMike + ' points');
+} else {
+    console.log('There is a draw')
+}
+
+var scoreJohn = (89 + 120 + 103) / 3;
+var scoreMike = (116 + 94 + 123) / 3;
+var scoreMary = (97 + 134 + 105) / 3;
+console.log(scoreJohn, scoreMike, scoreMary);
+
+if (scoreJohn > scoreMike && scoreJohn > scoreMary) {
+    console.log('John\'s team wins with ' + scoreJohn + ' points');
+} else if (scoreMike > scoreJohn && scoreMike > scoreMary) {
+    console.log('Mike\'s team wins with ' + scoreMary + ' points');
+} else if (scoreMary > scoreJohn && scoreMary > scoreJohn) {
+    console.log('Mary\'s team wins with ' + scoreMary + ' points');
+} else {
+    console.log ('There is a draw');
+}
