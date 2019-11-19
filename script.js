@@ -53,3 +53,34 @@ alert(firstName + ' is a ' + age + ' years old.' + ' Is he married?' + isMarried
 var lastName = prompt('what is his last name?');
 console.log(firstName + ' ' + lastName);
 */
+
+/*************************
+* Basic operations
+*/
+
+var year, yearJohn, yearMark;
+now = '2018';
+ageJohn ='28';
+ageMark = '33';
+
+//Math operations
+yearJohn = now - ageJohn;
+yearMark = now - ageMark;
+
+console.log(yearJohn);
+console.log(yearMark);
+
+console.log(now - 2);
+console.log(now * 2);
+console.log(now / 10);
+
+//Logical operations
+var johnOlder = ageJohn < ageMark;
+console.log(johnOlder);
+
+//Typeof operator
+console.log(typeof johnOlder);
+console.log(typeof yearMark);
+console.log(typeof 'Markis older than John');
+var x;
+console.log(typeof x);
