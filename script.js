@@ -26,3 +26,30 @@ var if = 23;
 var delete = 23;
 var function = 23;
 */
+
+/*************************
+* Variables mutation and type coercion
+*/
+
+/*
+var firstName = 'John';
+var age = '28';
+
+//Type coercion
+console.log(firstName + ' ' + age);
+
+var job, isMarried;
+job = 'teacher';
+isMarried = 'false';
+
+console.log(firstName + ' is a ' + age + ' years old.' + ' Is he married?' + isMarried);
+
+//Variable mutation
+age = 'twenty eight';
+job = 'driver';
+
+alert(firstName + ' is a ' + age + ' years old.' + ' Is he married?' + isMarried);
+
+var lastName = prompt('what is his last name?');
+console.log(firstName + ' ' + lastName);
+*/
